@@ -12,8 +12,10 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#typing').on('keydown', function() {
-    
+  $('#typing').on('keydown', function(key) {
+    if (key.which === 81) {
+      alert('You typed the G key!');
+    }
   })
 }
 
