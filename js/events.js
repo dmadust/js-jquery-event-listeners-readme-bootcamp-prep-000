@@ -5,6 +5,10 @@ function getIt() {
   });
 }
 
+function frameIt() {
+  $('img').load()
+}
+
 $(document).ready(function(){
 
 // call functions here
