@@ -11,11 +11,6 @@ function frameIt() {
   });
 }
 
-function pressIt() {
-  $('typing')
-}
-
-function pressIt()
 
 $(document).ready(function(){
 
