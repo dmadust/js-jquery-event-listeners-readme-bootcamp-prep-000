@@ -16,7 +16,7 @@ function pressIt() {
     if (key.which === 81) {
       alert('You typed the G key!');
     }
-  })
+  });
 }
 
 function pressIt()
@@ -26,4 +26,5 @@ $(document).ready(function(){
 // call functions here
   getIt();
   frameIt();
+  pressIt();
 });
