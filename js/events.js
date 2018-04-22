@@ -16,6 +16,7 @@ function submitIt() {
     alert("Your form is going to be submitted now.");
   });
 }
+
 function pressIt() {
   $('#typing').on('keydown', function(key) {
     if (key.which == 71) {
@@ -31,4 +32,5 @@ $(document).ready(function(){
   getIt();
   frameIt();
   pressIt();
+  submitIt();
 });
